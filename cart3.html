@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Bombay Restro</title>
+    <link rel="icon" href="/favicon.png" sizes="32x32" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="css/thebombayrestro.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <script src="js/thebombayrestro.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+
+  </head>
+  <body>
+  <nav class="navbar navbar-expand-lg" style="background-color: #ffffff;">
+    <div class="container">
+      <a href="#" class="navbar-brand" style="color: #88551a; font-size: 175%;">THE BOMBAY RESTRO</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="trial.html" class="nav-link" style="color: #88551a">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="menu.html" class="nav-link" style="color: #88551a">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a href="#order" class="nav-link" style="color: #88551a">Order</a>
+          </li>
+          <li class="nav-item">
+            <a href="contactus.html"nav-link" style="color: #88551a">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link" style="color: #88551a">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>  
+  
+  <section class="h-100 h-custom" style="background-color: #bcb5a8;">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12">
+          <div class="card card-registration card-registration-2" style="border-radius: 15px;">
+            <div class="card-body p-0">
+              <div class="row g-0">
+                <div class="col-lg-8">
+                  <div class="p-5">
+                    <div class="d-flex justify-content-between align-items-center mb-5">
+                      <h1 class="fw-bold mb-0" style="color: #88551a;">Shopping Cart</h1>
+                    </div>
+                    <hr class="my-4">
+  
+                    <div class="row mb-4 d-flex justify-content-between align-items-center">
+                      <div class="col-md-2 col-lg-2 col-xl-2">
+                        <img
+                          src="desert1.jpg"
+                          class="img-fluid rounded-3" alt="Cotton T-shirt">
+                      </div>
+                      <div class="col-md-3 col-lg-3 col-xl-3">
+                        <h6 class="text-muted">Pizza</h6>
+                        <h6 class="text-black mb-0">Dish of Italian origin of a flattened disk of bread dough with olive oil, oregano, tomato, olives<</h6>
+                      </div>
+                      <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                        <button class="btn btn-link px-2"
+                          onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                          <i class="fas fa-minus"></i>
+                        </button>
+  
+                        <input id="form1" min="0" name="quantity" value="1" type="number"
+                          class="form-control form-control-sm" />
+  
+                        <button class="btn btn-link px-2"
+                          onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                          <i class="fas fa-plus"></i>
+                        </button>
+                      </div>
+                      <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                        <h6 class="mb-0">₹ 44.00</h6>
+                      </div>
+                      <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                        <a href="#!" class="text-muted"><i class="fas fa-times"></i></a>
+                      </div>
+                    </div>
+  
+                    
+  
+                    <hr class="my-4">
+  
+                    <div class="pt-5">
+                      <h6 class="mb-0"><a href="menu.html" class="text-body"><i
+                            class="fas fa-long-arrow-alt-left me-2"></i>Back to shop</a></h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 bg-grey">
+                  <div class="p-5">
+                    <h3 class="fw-bold mb-5 mt-2 pt-1";">Summary</h3>
+                    <hr class="my-4">
+  
+                    <div class="d-flex justify-content-between mb-4">
+                      <h5 class="text-uppercase">items</h5>
+                      <h5>₹ 132.00</h5>
+                    </div>
+  
+                    <h5 class="text-uppercase mb-3">Shipping</h5>
+  
+                    <div class="mb-4 pb-2">
+                      <select class="select">
+                        <option value="1">Standard-Delivery- ₹5.00</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        <option value="4">Four</option>
+                      </select>
+                    </div>
+  
+                    <h5 class="text-uppercase mb-3">Give code</h5>
+  
+                    <div class="mb-5">
+                      <div class="form-outline">
+                        <input type="text" id="form3Examplea2" class="form-control form-control-lg" />
+                        <label class="form-label" for="form3Examplea2">Enter your code</label>
+                      </div>
+                    </div>
+  
+                    <hr class="my-4">
+  
+                    <div class="d-flex justify-content-between mb-5">
+                      <h5 class="text-uppercase">Total price</h5>
+                      <h5>₹ 137.00</h5>
+                    </div>
+  
+                    <button type="button" class="btn btn-dark btn-block btn-lg"
+                      data-mdb-ripple-color="dark">Continue</button>
+  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="p-5 bg-secondary text-light text-center postion-relative">
+    <div class="container">
+      <p class="lead">©2022 The Bombay Restro</p>
+      <a href="#" class="postion-absolute bottom-0 end-0 p-5">
+        <i class="bi bi-arrow-up-circle h1"></i>
+      </a>
+    </div>
+  </footer>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    </body>
+  </html>

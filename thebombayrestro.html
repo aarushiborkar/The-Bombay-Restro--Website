@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Bombay Restro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="css/thebombayrestro.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg" style="background-color: #ffffff;">
+      <div class="container">
+        <a href="#" class="navbar-brand" style="color: #88551a; font-size: 175%;">THE BOMBAY RESTRO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#menu" class="nav-link" style="color: #88551a">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a href="#order" class="nav-link" style="color: #88551a">Order</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link" style="color: #88551a">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link" style="color: #88551a">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>  
+<section>
+    <div class="container">
+    <video autoplay muted loop id="myVideo">
+        <source src="pexel2.mp4" type="video/mp4">
+      </video>
+      
+      <!-- Optional: some overlay text to describe the video -->
+      <div class="content text-center">
+        <h1>The Comfort You Crave</h1>
+      
+        <!-- Use a button to pause/play the video with JavaScript -->
+        
+        <button id="myBtn" onclick="myFunction()">ORDER</button>
+        <button id="myBtn" onclick="myFunction()">DINEIN</button>
+    
+      </div>
+    </div>
+    </section>
+      <section id="faqs" class="p-5">
+        <div class="container">
+          <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  DO YOU HAVE ANY SOURDOUGH? 
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">The majority of our breads are European style sourdoughs, so it will be less sour than a San Francisco style sourdough but the process is the same. We use a long fermentation with wild yeast. This produces a healthier and more flavorful bread.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  DO YOU HAVE GLUTEN FREE OPTIONS?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">We do not offer any gluten free breads. Gluten is what we specialize in. However, we do offer some pastry options such as our flourless brownie that are made without flour. Also we have a beautiful cheese and meat fridge that is 100% safe for those staying away from gluten. </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  WHAT IS FERMENTATION?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Fermentation is the chemical breakdown of a substance by bacteria, yeasts, or other microorganisms. In bread, fermentation occurs when yeast and bacteria inside the dough convert carbohydrates to carbon dioxide causing gas bubbles to form, which has a leavening effect on dough as well as creating flavor. This process is very similar to wine, beer and sauerkraut.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+                  DO YOU HAVE VEGAN OPTIONS? 
+                </button>
+              </h2>
+              <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Yes! Most of our breads are Vegan. All our sourdough breads are vegan unless they have cheese or meat in them, and we make sure to label those breads accordingly (Cheesy Grits, Feta Basil, Cheddar Jalapeño, Bacon Baguette...). We do make loaves such as Challah which contains Sequatchie Cove Farm pasture raised eggs which is not vegan. </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="customerreviews" class="p-5" style="background-color: #C28B7C;">
+        <div class="container">
+          <h2 class="text-center text-light">Customer Reviews</h2>
+          <p class="text-center text-light">We are the best at making Breads.</p>
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+              <div class="card bg-light">
+                <div class="card-body text-center">
+                  <img src="http://randomuser.me/api/portraits/women/8.jpg" class="rounded-circle mb-3">
+                  <h3 class="card-title mb-3">Alex Green</h3>
+                  <p class="card-text">“Everything in this place looks so good. I tried a numerous amount of things and wasn’t disappointed in anything.”</p>
+                  <p>Rating:⭐⭐⭐⭐</p>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card bg-light">
+                <div class="card-body text-center">
+                  <img src="http://randomuser.me/api/portraits/men/7.jpg" class="rounded-circle mb-3">
+                  <h3 class="card-title mb-3">Joe Styles</h3>
+                  <p class="card-text">“They have the most delicious homemade cinnamon bread! <br>Very clean and friendly <br>atmosphere.”
+  
+                  </p>
+                  <p>Rating:⭐⭐⭐⭐⭐</p>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card bg-light">
+                <div class="card-body text-center">
+                  <img src="http://randomuser.me/api/portraits/women/14.jpg" class="rounded-circle mb-3">
+                  <h3 class="card-title mb-3">Rachel Young</h3>
+                  <p class="card-text">“I cannot say enough good things about this place! Brioche Bread was fantastic! Delicious food. Great people and atmosphere.”</p>
+                  <p>Rating:⭐⭐⭐⭐</p>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card bg-light">
+                <div class="card-body text-center">
+                  <img src="http://randomuser.me/api/portraits/men/2.jpg" class="rounded-circle mb-3">
+                  <h3 class="card-title mb-3">Peter Jackson</h3>
+                  <p class="card-text">“As always, the baked goods were delicious. We visit the bread store often and I recommend them to everyone!”</p>
+                  <p>Rating:⭐⭐⭐⭐⭐</p>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      
+      </section>
+      <section class="bg-light p-5">
+        <div class="container">
+          <div class="row g-4">
+              <div class="col-md">
+                <h2 class="tect-center mb-4">Contact Information</h2>
+                <ul class="list-group list-group-flush lead">
+                  <li class="list-group-item">
+                    <span class="fw-bold">Telephone Number:</span> (260) 347-5570
+                  </li>
+                  <li class="list-group-item">
+                    <span class="fw-bold">Address:</span> 21 Knoll Ridge Blvd, Modesto, California(CA), 95350
+                  </li>
+                  <li class="list-group-item">
+                    <span class="fw-bold">Email:</span> thebreadshop@gmail.com
+                  </li>
+              
+                </ul>
+              </div>
+              <div class="col-md">
+                <iframe width="600" height="450" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJUV989PZTkIARK2M3xDK6lL8&key=AIzaSyBUTvZAhjWFgonRDmkdVStgWFD2BZ2J9Hk"></iframe>
+              </div>
+          </div>
+        </div>
+      </section>
+      <footer class="p-5 bg-secondary text-light text-center postion-relative">
+        <div class="container">
+          <p class="lead">©2022 The Bread Shop</p>
+          <a href="#" class="postion-absolute bottom-0 end-0 p-5">
+            <i class="bi bi-arrow-up-circle h1"></i>
+          </a>
+        </div>
+      </footer>
+            
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
